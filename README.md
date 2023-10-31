@@ -13,7 +13,7 @@ TradeInfoHub is a landing page built with React. It serves as the first point of
 
 ## Installation and Setup
 
-1. Clone the repository: `git clone https://github.com/bonolo2s/TradeInfoHub-Landing-page.git`
+1. Clone the repository: `git@github.com:bonolo2s/TradeInfoHub-Landing-page.git`
 2. Navigate into the directory: `cd TradeInfoHub`
 3. Install dependencies: `npm install` or `yarn install`
 4. Start the application: `npm start` or `yarn start`
