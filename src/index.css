@@ -91,9 +91,11 @@ ul li a:not(.active):hover{
 
 /*ABOUT STYLES*/
 #About{
-  display: flex;
   margin: 100px 0;
   padding: 2% 0;
+}
+.Mission{
+  display: flex;
 }
 .mission-statement{
   padding: 2%;
@@ -104,6 +106,24 @@ ul li a:not(.active):hover{
 .mission-statement p{
   font-size: 20px;
   color: grey;
+}
+.Our-team{
+  margin: 4rem 0;
+}
+.Our-team h2{
+  font-size: 2rem;
+}
+.our-team-container{
+  display: flex;
+  margin: 40px 0;
+}
+.our-team-actual-content{
+  display: flex;/*
+  margin: 0 20px;*/
+}
+.our-team-actual-content div{
+  margin-right: 20px;
+
 }
 
 /*SERVICES STYLES*/
@@ -142,6 +162,7 @@ ul li a:not(.active):hover{
 .Line-container {
   text-align: center;
   overflow: hidden;
+  margin: 40px 0;
 }
 .text {
   background-color: #fff;
@@ -151,11 +172,62 @@ ul li a:not(.active):hover{
   border-top: 1px solid #000;
 }
 
+/*CONTACT STYLES*/
+.contact-container{
+  display: flex;
+}
 
+.contact-Sub-container-1{
+  flex: 1;
+  padding: 1%;
+}
+.contact-Sub-container-2{
+  flex: 1;
+  background-color: aliceblue;
+  text-align: center;
+  padding: 45px 5px ;
+}
+.contact-Sub-container-2 button{
+  background-color: rgb(45, 120, 182) ;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  cursor: pointer;
+}
+.contact-Sub-container-2 button:hover{
+  background-color: rgb(0, 128, 107);
+}
 
-
-
-
+/*SUBSCRIBTION STYLES*/
+#subscribe{
+  padding: 20px 0;
+  background-color: aliceblue;
+  text-align: center;
+  margin-top: 50px;
+}
+.subscribe-container{
+  margin: 3rem 0;
+}
+.subscribe-container h1{
+  font-size: 2.8rem;
+}
+.subscribe-container input{
+  width: 45%;
+  height: 18px;
+  padding: 1%;
+  font-size: 20px;
+}
+.subscribe-container button{
+  background-color: rgb(45, 120, 182) ;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  cursor: pointer;
+}
 
 
 @media (max-width:600px) {
