@@ -65,7 +65,7 @@ ul li a:not(.active):hover{
 /*HERO STYLES*/
 #Home{
  display: flex;
- margin: 30px 0;
+ margin: 3rem 0;
 }
 .Home-title{
   padding: 2%;
@@ -91,7 +91,7 @@ ul li a:not(.active):hover{
 
 /*ABOUT STYLES*/
 #About{
-  margin: 100px 0;
+  margin: 3rem 0;
   padding: 2% 0;
 }
 .Mission{
@@ -108,29 +108,29 @@ ul li a:not(.active):hover{
   color: grey;
 }
 .Our-team{
-  margin: 4rem 0;
+  margin: 2rem;
 }
-.Our-team h2{
-  font-size: 2rem;
-}
-.our-team-container{
+.Our-team-container{
   display: flex;
-  margin: 40px 0;
+  margin: 2rem 0;
 }
-.our-team-actual-content{
-  display: flex;/*
-  margin: 0 20px;*/
+.Our-team-sub-C{
+  display: flex;
 }
-.our-team-actual-content div{
-  margin-right: 20px;
+.Our-team-sub-C div{
+  padding: 0 10px;
+  margin-left: 15px;
+}
 
-}
 
 /*SERVICES STYLES*/
+#Services{
+  margin: 2rem 0;
+}
 .services-header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin: 2rem 0;
 }
 .services-header button{
   background-color: rgb(45, 120, 182);
@@ -162,7 +162,7 @@ ul li a:not(.active):hover{
 .Line-container {
   text-align: center;
   overflow: hidden;
-  margin: 40px 0;
+  margin: 60px 0;
 }
 .text {
   background-color: #fff;
@@ -170,6 +170,13 @@ ul li a:not(.active):hover{
 }
 .line {
   border-top: 1px solid #000;
+}
+.benefits-container{
+  display: flex;
+  justify-content: space-between;
+}
+.benefits-container div{/*
+  margin: 0 30px;*/
 }
 
 /*CONTACT STYLES*/
@@ -200,18 +207,31 @@ ul li a:not(.active):hover{
   background-color: rgb(0, 128, 107);
 }
 
+/*REVIEWS STYLES*/
+#Reviews{
+  margin: 2rem 0;
+}
+.testimonials-container{
+  display: flex;
+}
+.testimonials-container div{
+  padding: 10px;
+  margin: 20px 0;
+}
+
+
 /*SUBSCRIBTION STYLES*/
 #subscribe{
   padding: 20px 0;
   background-color: aliceblue;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 2rem 0;
 }
 .subscribe-container{
   margin: 3rem 0;
 }
 .subscribe-container h1{
-  font-size: 2.8rem;
+  font-size: 3rem;
 }
 .subscribe-container input{
   width: 45%;

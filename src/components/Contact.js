@@ -13,48 +13,6 @@ import marker from "../assets/marker.png"
 
 
 const Contact = () => {
-    useEffect(() => {
-        // Create a map
-        let map = new Map({
-          target: 'map', // The id of your map div
-          layers: [
-            new TileLayer({
-              source: new OSM({wrapX: false})
-            })
-          ],
-          view: new View({
-            center: [-25.790688948944123 , 28.215630944118587],
-            zoom: 2
-          })
-        });
-    
-        // Function to add a marker to the map
-        function addMarker(longitude, latitude) {
-          let marker = new Feature({
-            geometry: new Point([longitude, latitude])
-          });
-          
-          marker.setStyle(new Style({
-            image: new Icon({
-              anchor: [0.5, 1],
-              src: 'marker'
-            })
-          }));
-          
-          let vectorSource = new VectorSource({
-            features: [marker]
-          });
-          
-          let markerVectorLayer = new VectorLayer({
-            source: vectorSource,
-          });
-          
-          map.addLayer(markerVectorLayer);
-        }
-    
-        // Use the function to add a marker
-        addMarker(0, 0); // Replace with your longitude and latitude
-      }, []);
 
     return ( 
         <div>
@@ -78,10 +36,7 @@ const Contact = () => {
                     <br />
 
                     <h2>Find the Studio</h2>
-                    <div id="map" style={{ width: "auto", height: "600px" }}>
-                    </div>
-
-
+                 
                 </div>
                 <div className="contact-Sub-container-2">
                     <div>

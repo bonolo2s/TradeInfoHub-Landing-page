@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { BsRecordCircle } from "react-icons/bs";
 
 import Navbar from "./components/Navbar";
 
@@ -9,7 +10,13 @@ import News from "./assets/news and updates.webp"
 import Cutting from "./assets/cutting-edge-apis.webp"
 import John from "./assets/john.webp"
 import Emily from "./assets/emily.webp"
-import Contact from './components/Contact';
+import Contact from './components/Contact'
+import sarah from './assets/sarah.webp'
+import johnC from './assets/john-carter.webp'
+import emma from './assets/emah.webp'
+import david from './assets/David.webp'
+import stars from './assets/stars.webp'
+import benefits from './assets/benefits-sec.webp'
 
 
 function App() {
@@ -59,45 +66,44 @@ function App() {
                 </div>
 
                 <div className="Our-team">
-                  <h2>Our team</h2>
+                  <h1 style={{fontSize:'3rem'}} >Our team</h1>
                   <p style={{fontSize:'20px', color:'grey'}} >Meet out expert team. The Driving force behind TradeInfoHub's succcess </p>
-                  <div className='our-team-container'>
-                    <div className='our-team-actual-content' >
-                      <div>
-                        <img src={John} alt="Founder and Seo" style={{width:'100%'}} />
-                      </div>
-                      <div>
-                        <h2>John smith</h2>
-                        <p  style={{fontSize:'20px',color:'green'}} >Founder and SEO</p>
+                  <br />
+                  <div className="Our-team-container">
+                    <div className="Our-team-sub-C">
+                      <img src={John} alt="" style={{width:'35%', borderRadius:'10px'}} />
+                      <div className="actual-content">
+                        <h2>John Smith</h2>
+                        <p style={{fontSize:'20px', color:'green', fontWeight:'bold'}} >Founder & CEO</p>
                         <br />
-                        <p style={{fontSize:'20px', color:'grey'}} >John brings decades of experience in the financial industry and a a passion for innovation
-                          to TradeInfoHub. His leadership and expertise drive the company's success.
+                        <p style={{fontSize:"20px", color:"grey"}} >
+                          John brings decades of experience in the financial industry and a 
+                          passion for innovation to TradeonfoHub. His leadership and expertise
+                          drive the company’s success.
                         </p>
                       </div>
                     </div>
-
-                    <div className='our-team-actual-content' >
-                      <div>
-                        <img src={Emily} alt="Founder and Seo" style={{width:'100%'}} />
-                      </div>
-                      <div>
-                        <h2>John smith</h2>
-                        <p  style={{fontSize:'20px',color:'green'}} >Lead Developer</p>
+                    <div className="Our-team-sub-C">
+                      <img src={Emily} alt="" style={{width:'35%', borderRadius:'10px'}} />
+                      <div className="actual-content">
+                        <h2>Emily Chen</h2>
+                        <p style={{fontSize:'20px', color:'green', fontWeight:'bold'}}>Lead Developer</p>
                         <br />
-                        <p style={{fontSize:'20px', color:'grey'}} >Emiley's experience in programming and development are invaluable to 
-                          TradeInfoHub's API integration and website development. her attention to detail and dedication 
-                          to excellence make her a vital member of our team.
+                        <p style={{fontSize:"20px", color:"grey"}}>
+                          John brings decades of experience in the financial industry and a 
+                          passion for innovation to TradeonfoHub. His leadership and expertise
+                          drive the company’s success.
                         </p>
                       </div>
                     </div>
                   </div>
-                </div> 
 
-                
+                </div> 
               </section>
+
               <section id="Services">
                 <div className="services-header">
-                  <h1>Our services</h1>
+                  <h1 style={{fontSize:'3rem'}}>Our services</h1>
                   <button>View All Services</button>
                 </div>
                 <div className="services-offered">
@@ -146,18 +152,108 @@ function App() {
                   <span class="text">Features & Benefits</span>
                   <hr class="line"/>
                 </div>
+                
+                <div className="benefits-container">
+                  <div>
+                    <h1>Features</h1>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >Real-time Trading Insights</span></p>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >Cutting-edge APIs</span></p>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >Comprehensive Data Analysis</span></p>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >News and Updates</span></p>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >Ongoing Support</span></p>
+                    <br />
+                  </div>
 
-                <div>
+                  <div>
+                    <h1>Benefits</h1>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >Accurate Trading Insights</span></p>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >Sustained Partnership</span></p>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >Comprehensive Data Analysis</span></p>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >Increased Profitability</span></p>
+                    <br />
+                    <p><BsRecordCircle style={{color:'green',marginRight:"5px"}} /><span style={{fontSize:'20px', color:'grey'}} >Staying Ahead of the Curve</span></p>
+                    <br />
+                  </div>
+
+                  <div>
+                    <img src={benefits} alt="" style={{width:'25rem', borderRadius:'10px'}} />
+                  </div>
 
                 </div>
-
               </section>
-              <section id="Reviews"></section>
+
+              <section id="Reviews">
+                <h1 style={{fontSize:"3rem"}} >Client Testimonials</h1>
+                <br />
+                <p style={{fontSize:'20px'}} >Hear What Our Clients Have to Say About Us</p>
+                <br />
+                <br />
+                <div className="testimonials-container">
+                  <div>
+                  <img src={stars} alt="" style={{width:'100px'}} />
+                    <p  style={{fontSize:'20px'}} >TradeonfoHub is the perfect trading partner. 
+                      Their real-time insights and news updates keep me 
+                      informed and help me stay on top of market trends. 
+                      I highly recommend them to anyone looking to up their trading game.
+                    </p>
+                    <div style={{display:'flex',alignItems:'center'}}>
+                      <img src={sarah} alt="" style={{width:'50px',borderRadius:'50px'}} /><span style={{fontSize:'20px', color:'blue',fontWeight:'bold',marginLeft:'20px'}} >SARAH THOMPSON</span>
+                    </div>
+                  </div>
+                  <div>
+                    <img src={stars} alt="" style={{width:'100px'}} />
+                    <p style={{fontSize:'20px'}} >TradeonfoHub is the perfect trading partner. 
+                      Their real-time insights and news updates keep me 
+                      informed and help me stay on top of market trends. 
+                      I highly recommend them to anyone looking to up their trading game.
+                    </p>
+                    <div style={{display:'flex',alignItems:'center'}} >
+                      <img src={johnC} alt=""  style={{width:'50px',borderRadius:'50px'}}  /><span style={{fontSize:'20px', color:'black',fontWeight:'bold',marginLeft:'20px'}} >JOHN CARTER</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="testimonials-container">
+                  <div>
+                  <img src={stars} alt="" style={{width:'100px'}} />
+                    <p  style={{fontSize:'20px'}}>TradeonfoHub is the perfect trading partner. 
+                      Their real-time insights and news updates keep me 
+                      informed and help me stay on top of market trends. 
+                      I highly recommend them to anyone looking to up their trading game.
+                    </p>
+                    <div style={{display:'flex',alignItems:'center'}} >
+                      <img src={emma} alt="" style={{width:'50px',borderRadius:'50px'}} /><span style={{fontSize:'20px', color:'black',fontWeight:'bold',marginLeft:'20px'}} >	EMMA RODRIGUEZ</span>
+                    </div>
+                  </div>
+                  <div>
+                  <img src={stars} alt="" style={{width:'100px'}} />
+                    <p  style={{fontSize:'20px'}}>TradeonfoHub is the perfect trading partner. 
+                      Their real-time insights and news updates keep me 
+                      informed and help me stay on top of market trends. 
+                      I highly recommend them to anyone looking to up their trading game.
+                    </p>
+                    <br />
+                    <div style={{display:'flex',alignItems:'center'}} >
+                      <img src={david} alt="" style={{width:'50px',borderRadius:'50px'}} /><span style={{fontSize:'20px', color:'black',fontWeight:'bold',marginLeft:'20px'}} >DAVID WILSON</span>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
               <section id="Contact">
                 <Contact/>
               </section>
-            </div>
 
+            </div>
             <section id="subscribe">
               <div className='subscribe-container'>
                 <h1>Subscribe to Newsletter</h1>
@@ -172,6 +268,7 @@ function App() {
                 <br />
               </div>
             </section>
+            
           </div>
         </Route>
       </Switch>
