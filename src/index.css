@@ -117,6 +117,10 @@ ul li a:not(.active):hover{
 .Our-team-sub-C{
   display: flex;
 }
+.Our-team-sub-C img{
+  width: 250px;
+  border-radius: 10px;
+}
 .Our-team-sub-C div{
   padding: 0 10px;
   margin-left: 15px;
@@ -175,8 +179,9 @@ ul li a:not(.active):hover{
   display: flex;
   justify-content: space-between;
 }
-.benefits-container div{/*
-  margin: 0 30px;*/
+.benefits-img{
+  width: 20rem;
+  border-radius: 10px;
 }
 
 /*CONTACT STYLES*/
@@ -251,21 +256,156 @@ ul li a:not(.active):hover{
 
 
 @media (max-width:600px) {
-  nav{
-    flex-direction: column;
-    align-items: start;
-  }
-  .menu-icon{
+    nav{
+      flex-direction: column;
+      align-items: start;
+    }
+    .menu-icon{
+      display: flex;
+      justify-content: space-between;
+    }
+    ul{
+      flex-direction: column;
+    }
+
+    /*HELP STYLES*/
+    #Home{
+      flex-direction: column;
+    }
+    .Home-title{
+      padding: 2%;
+    }
+    .Home-title h1{
+      font-size: 3rem;
+    }
+    .Home-img-con img{
+      width: 100%;
+    }
+
+    /*ABOUT STYLES*/
+    .Mission{
+      display: flex;
+      flex-direction: column;
+    }
+    .Mission img{
+      width: 100%;
+    }
+    .Our-team-container{
+      flex-direction: column;
+    }
+    .Our-team-sub-C{
+      flex-direction: column;
+    }
+
+    /*SERVICES STYLES*/
+    .services-header{
+      flex-direction: column;
+    }
+    .services-offered{
+      flex-direction: column;
+      align-items: center;
+    }
+    .card{
+      width: 350px;
+      margin: 10px 0;
+    }
+    .benefits-container{
+      flex-direction: column;
+    }
+    .benefits-img{
+      width: 100%;
+    }
+
+    /*CONTACT STYLES*/
+    .contact-container{
+      flex-direction: column;
+    }
+
+    /*REVIEWS STYLES*/
+    .testimonials-container{
+      flex-direction: column;
+    }
+}
+
+@media (min-width:756px) {
+    /*HERO STYLES*/
+    #Home{
+      display: flex;
+      flex-direction: column;
+     }
+    .Home-title h1{
+      font-size: 4rem;
+      font-weight: bold;
+      line-height: 1;
+    }
+    .Home-img-con img{
+      width: 90%;
+      margin: 2rem 0;
+    }
+
+    
+    /*ABOUT STYLES*/
+    .Mission{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .Mission img{
+      width: 90%;
+    }
+    .Our-team-container{
+      flex-direction: column;
+    }
+    .Our-team-sub-C{
+      flex-direction: column;
+    }
+
+    /*SERVICES STYLES*/
+    .services-offered{
+      flex-wrap: wrap;
+      flex-direction: row;
+    }
+    .benefits-container{
+      flex-wrap: wrap;
+    }
+}
+
+@media (min-width:1200px) {
+  /*HERO STYLES*/
+  #Home{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
   }
-  ul{
-    flex-direction: column;
+  .Home-img-con img{
+    width: 30rem;
   }
+
+  /*ABOUT STYLES*/
+  .Mission{
+    flex-direction: row;
+  }
+  .Mission img{
+    width: 30rem;
+  }
+  .Our-team-container{
+    flex-direction: row;
+  }
+  .Our-team-sub-C{
+    flex-direction: row;
+  }
+
+  
 }
 
 @media (min-width:1400px) {
   .App{
     padding: 0 15%;
   }
+  /*SUBSCRIBTION STYLES*/
+  #subscribe{
+    padding: 20px 0;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
 }

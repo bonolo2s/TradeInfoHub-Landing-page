@@ -71,7 +71,7 @@ function App() {
                   <br />
                   <div className="Our-team-container">
                     <div className="Our-team-sub-C">
-                      <img src={John} alt="" style={{width:'35%', borderRadius:'10px'}} />
+                      <img src={John} alt=""  />
                       <div className="actual-content">
                         <h2>John Smith</h2>
                         <p style={{fontSize:'20px', color:'green', fontWeight:'bold'}} >Founder & CEO</p>
@@ -84,7 +84,7 @@ function App() {
                       </div>
                     </div>
                     <div className="Our-team-sub-C">
-                      <img src={Emily} alt="" style={{width:'35%', borderRadius:'10px'}} />
+                      <img src={Emily} alt=""  />
                       <div className="actual-content">
                         <h2>Emily Chen</h2>
                         <p style={{fontSize:'20px', color:'green', fontWeight:'bold'}}>Lead Developer</p>
@@ -185,7 +185,7 @@ function App() {
                   </div>
 
                   <div>
-                    <img src={benefits} alt="" style={{width:'25rem', borderRadius:'10px'}} />
+                    <img src={benefits} alt="" className='benefits-img'/>
                   </div>
 
                 </div>
