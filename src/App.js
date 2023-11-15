@@ -34,7 +34,7 @@ function App() {
                   <h1>Game with</h1>
                   <h1>TradeInfoHub</h1>
                   <br />
-                  <p>TradeonfoHub empowers you with accurate, 
+                  <p>TradeInfoHub empowers you with accurate, 
                     real-time trading insights. Our cutting-edge APIs and
                     comprehensive data analysis keeps you ahead of the game,
                     while our news and updates keep you informed.
@@ -55,7 +55,7 @@ function App() {
                   <div className="mission-statement">
                     <h1>Mission statement</h1>
                     <br />
-                    <p>At TradeonfoHub, we believe that knowledge is power. 
+                    <p>At TradeInfoHub, we believe that knowledge is power. 
                       That’s why we are committed to providing our clients with 
                       the latest trading insights, cutting-edge APIs, and news and 
                       updates from the financial industry. Our mission is to empower
@@ -78,7 +78,7 @@ function App() {
                         <br />
                         <p style={{fontSize:"20px", color:"grey"}} >
                           John brings decades of experience in the financial industry and a 
-                          passion for innovation to TradeonfoHub. His leadership and expertise
+                          passion for innovation to TradeInfoHub. His leadership and expertise
                           drive the company’s success.
                         </p>
                       </div>
@@ -91,7 +91,7 @@ function App() {
                         <br />
                         <p style={{fontSize:"20px", color:"grey"}}>
                           John brings decades of experience in the financial industry and a 
-                          passion for innovation to TradeonfoHub. His leadership and expertise
+                          passion for innovation to TradeInfoHub. His leadership and expertise
                           drive the company’s success.
                         </p>
                       </div>
@@ -200,7 +200,7 @@ function App() {
                 <div className="testimonials-container">
                   <div>
                   <img src={stars} alt="" style={{width:'100px'}} />
-                    <p  style={{fontSize:'20px'}} >TradeonfoHub is the perfect trading partner. 
+                    <p  style={{fontSize:'20px'}} >TradeInfoHub is the perfect trading partner. 
                       Their real-time insights and news updates keep me 
                       informed and help me stay on top of market trends. 
                       I highly recommend them to anyone looking to up their trading game.
@@ -211,7 +211,7 @@ function App() {
                   </div>
                   <div>
                     <img src={stars} alt="" style={{width:'100px'}} />
-                    <p style={{fontSize:'20px'}} >TradeonfoHub is the perfect trading partner. 
+                    <p style={{fontSize:'20px'}} >TradeInfoHub is the perfect trading partner. 
                       Their real-time insights and news updates keep me 
                       informed and help me stay on top of market trends. 
                       I highly recommend them to anyone looking to up their trading game.
@@ -225,7 +225,7 @@ function App() {
                 <div className="testimonials-container">
                   <div>
                   <img src={stars} alt="" style={{width:'100px'}} />
-                    <p  style={{fontSize:'20px'}}>TradeonfoHub is the perfect trading partner. 
+                    <p  style={{fontSize:'20px'}}>TradeInfoHub is the perfect trading partner. 
                       Their real-time insights and news updates keep me 
                       informed and help me stay on top of market trends. 
                       I highly recommend them to anyone looking to up their trading game.
@@ -236,7 +236,7 @@ function App() {
                   </div>
                   <div>
                   <img src={stars} alt="" style={{width:'100px'}} />
-                    <p  style={{fontSize:'20px'}}>TradeonfoHub is the perfect trading partner. 
+                    <p  style={{fontSize:'20px'}}>TradeInfoHub is the perfect trading partner. 
                       Their real-time insights and news updates keep me 
                       informed and help me stay on top of market trends. 
                       I highly recommend them to anyone looking to up their trading game.
