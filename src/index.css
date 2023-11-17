@@ -262,16 +262,19 @@ ul li a:hover{
       display: flex;
       justify-content: space-between;
     }
-    ul{
+    .open{
       flex-direction: column;
       width: 100%;
       text-align: center;
       line-height: 1.5;
-      display: none;
+      max-height: 0;
+      overflow: hidden;
+      transition: 0.5s all cubic-bezier(0,1,0,1)
     }
-    ul.show{
+    .open.show{
+      height: auto;
+      max-height: 999px;
       transition: 0.5s all ease;
-      display: block;
     }
 
     /*HELP STYLES*/
