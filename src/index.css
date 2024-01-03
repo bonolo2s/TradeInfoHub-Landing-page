@@ -269,12 +269,12 @@ ul li a:hover{
       line-height: 1.5;
       max-height: 0;
       overflow: hidden;
-      transition: 0.5s all cubic-bezier(0,1,0,1)
+      transition: 1s all cubic-bezier(0,1,0,1)
     }
     .open.show{
       height: auto;
       max-height: 999px;
-      transition: 0.5s all ease;
+      transition: 2s all ease;
     }
 
     /*HELP STYLES*/
