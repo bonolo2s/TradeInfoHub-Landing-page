@@ -116,7 +116,7 @@ function App() {
                       <p>Our real-time trading insights service provides up-to-the-minute market news,
                         trends, and analysis, empowering you to make informed trading decisions.
                       </p>
-                      <a href="#">Read more</a>
+                      <a href="/">Read more</a>
                     </div>
                   </div>
 
@@ -130,7 +130,7 @@ function App() {
                         market updates, and trading insights, keeping you informed and ahead 
                         of the competition.
                       </p>
-                      <a href="#">Read more</a>
+                      <a href="/">Read more</a>
                     </div>
                   </div>
 
@@ -143,7 +143,7 @@ function App() {
                       <p>Our cutting-edge APIs deliver real-time, accurate, and reliable
                         trading data, empowering you to make informed decisions and stay ahead of the curve.
                       </p>
-                      <a href="#">Read more</a>
+                      <a href="/">Read more</a>
                     </div>
                   </div>
                 </div>
