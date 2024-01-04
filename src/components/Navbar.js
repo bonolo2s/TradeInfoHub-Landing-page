@@ -1,6 +1,5 @@
 
 import React, {useState} from 'react';
-import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
@@ -13,7 +12,7 @@ const Navbar = () => {
 
     return ( 
         <nav>
-            <Link to='/' className='logo' >TradeInfoHub</Link>
+            <a href='/' className='logo' >TradeInfoHub</a>
 
             <div className='menu-icon' onClick={toggleMenu} >
                 <span></span>   
@@ -23,16 +22,16 @@ const Navbar = () => {
 
             <ul className={isOpen ? 'open show' : 'open'} >
                 <li>
-                    <NavLink to='/' >Services</NavLink>
+                    <a href='/#Services'>Services</a>
                 </li>
                 <li>
-                    <NavLink to='/' >About</NavLink>
+                    <a href='/#About'>About</a>
                 </li>
                 <li>
-                    <NavLink to='/' >Contact</NavLink>
+                    <a href='/#Contact'>Contact</a>
                 </li>
                 <li>
-                    <NavLink to='/' >Sign Up</NavLink>
+                    <a href='/#subscribe'>Sign Up</a>
                 </li>
             </ul>
         </nav>
